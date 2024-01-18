@@ -29,6 +29,7 @@ WA Contacts Saver is a Chrome extension that allows you to manually save phone n
 After installation, open WhatsApp Web in your Chrome browser.
 To save a custom name for a phone number, manually edit the content.js file in the extension folder.
 
+```
 let name = phoneNumber;
 switch (phoneNumber) {
   case '+92 321 1331252':
@@ -36,6 +37,7 @@ switch (phoneNumber) {
     break;
   // Add more cases for other phone numbers
 }
+```
 
 Add more cases to the switch statement for other phone numbers you want to customize.
 Save the changes to content.js.
