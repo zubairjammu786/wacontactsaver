@@ -32,7 +32,7 @@ To save a custom name for a phone number, manually edit the content.js file in t
 ```
 let name = phoneNumber;
 switch (phoneNumber) {
-  case '+92 321 1331252':
+  case '+92 321 xxxxxxx':
     name = 'Zubair';
     break;
   // Add more cases for other phone numbers
@@ -40,6 +40,8 @@ switch (phoneNumber) {
 ```
 
 Add more cases to the switch statement for other phone numbers you want to customize.
+Remember the format of phone number first and check how they are displayable on screen.
+For examples some numbers can have spaces like '+92 321 xxxxxxx' and can be without spaces '+92321xxxxxxx'
 Save the changes to content.js.
 Refresh your WhatsApp Web page, and the custom names should be applied.
 
