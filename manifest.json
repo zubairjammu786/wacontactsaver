@@ -1,0 +1,18 @@
+// manifest.json
+{
+  "manifest_version": 2,
+  "name": "WhatsApp Name Replacer",
+  "version": "1.0",
+  "description": "Replace phone numbers with names on WhatsApp Web",
+  "permissions": ["storage", "activeTab", "webNavigation"],
+  "browser_action": {
+    "default_title": "WhatsApp Name Replacer",
+    "default_popup": "content.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://web.whatsapp.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
