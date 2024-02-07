@@ -47,3 +47,6 @@ Refresh your WhatsApp Web page, and the custom names should be applied.
 
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests to improve the extension.
+
+## Disclaimer
+This is not an official extension by WhatsApp or Meta . Use it at your own ease.
